@@ -1,4 +1,6 @@
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Main {
@@ -7,7 +9,8 @@ public class Main {
         String ficheroName = scanner.nextLine();
 
         File fichero = new File(ficheroName);
-
+        PrintWriter pw = new PrintWriter(fichero);
+        BufferedWriter bw = new BufferedWriter(pw);
 
 
 
