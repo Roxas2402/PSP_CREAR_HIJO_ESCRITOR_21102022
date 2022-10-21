@@ -10,9 +10,6 @@ public class Main {
 
         File fichero = new File(ficheroName);
         PrintWriter pw = new PrintWriter(fichero);
-        BufferedWriter bw = new BufferedWriter(pw);
-
-
 
         String linea;
     }
